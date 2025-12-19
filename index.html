@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новогодний Подарок 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <!-- Контейнер для гирлянды -->
+    <div class="garland-container" id="garlandContainer">
+        <!-- Лампочки будут добавлены сюда с помощью JS -->
+    </div>
+
+    <!-- Контейнер для стильного переключателя -->
+    <div class="switch-container">
+        <label for="toggleGarlandCheckbox" class="switch-label">
+            Гирлянда:
+        </label>
+        <!-- Скрытый чекбокс - основа логики -->
+        <input type="checkbox" id="toggleGarlandCheckbox" checked>
+        <!-- Визуальный элемент переключателя -->
+        <label for="toggleGarlandCheckbox" class="switch"></label>
+    </div>
+
+
+<img class="bear1" src="./пиво-Photoroom.png">
+    <div class="instruction" id="hint">Нажми на подарок! 🎁</div>
+
+    <div class="gift-box" id="gift">
+
+        <div class="lid">
+            <div class="bow">🎁</div>
+            <div class="ribbon-v"></div>
+        </div>
+
+        <div class="box-body">
+            <div class="ribbon-v"></div>
+            <div class="ribbon-h"></div>
+        </div>
+
+        <div class="gift-content">
+            <div class="timer-title">До 2026 года осталось:</div>
+            <div class="timer-display">
+                <div class="time-unit"><span id="days">00</span><label>Дней</label></div>
+                <div class="time-unit"><span id="hours">00</span><label>Часов</label></div>
+                <div class="time-unit"><span id="minutes">00</span><label>Мин</label></div>
+                <div class="time-unit"><span id="seconds">00</span><label>Сек</label></div>
+            </div>
+        </div>
+    </div>
+    <img class="bear" src="./пиво-Photoroom.png">
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
